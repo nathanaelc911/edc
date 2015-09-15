@@ -1,0 +1,113 @@
+.bubble {
+	background-color: hsla(190, 50%, 90%, 1);
+	padding: 40px;
+	margin: 20px;
+	border-radius: 200px;
+	font-size: 24px;
+	text-align: center;
+	color: blue;
+	font-family: sans-serif;
+	position: relative;
+}
+.bubble::before {
+	content: "";
+	display: block;
+	/*width: 10px;*/
+	/*height: 10px;*/
+	/*background-color: red;*/
+	border-width: 0px 30px 30px 30px;
+	border-style: solid;
+	border-color: transparent hsla(190, 50%, 90%, 1) transparent transparent;
+	position: absolute;
+	top: 100%;
+	left: 60%;
+}
+.clock {
+	width: 400px;
+	height: 400px;
+	border: 2px solid hsla(0, 0%, 10%, 1);
+	border-radius: 50%;
+	position: relative;
+	background-image: url(http://www.thewoodshop.20m.com/graphics/clockface2.jpg);
+	border-size:100%;
+}
+.clock::after {
+	content: "";
+	display: block;
+	width: 160px;
+	height: 5px;
+	border:5px solid hsla(120, 40%, 50%, 1);
+	border-radius: 10px;
+	position: absolute;
+	left: 180px;
+	top: 150px;
+	background-color: hsla(120, 40%, 50%, 1);
+	transform: rotate(150deg);
+
+}
+.clock::before {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 10px;
+	border:5px solid hsla(120, 40%, 50%, 1);
+	border-radius: 10px;
+	position: absolute;
+	left: 137px;
+	top: 240px;
+	background-color: hsla(120, 40%, 50%, 1);
+	transform: rotate(90deg);
+}
+.phone {
+	width: 300px;
+	height: 595px;
+	border: 2px solid hsla(0, 0%, 9%, 1);
+	border-radius: 20px;
+	position: relative;
+}
+.phone::before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 4px;
+	border: 2px solid hsla(0, 0%, 9%, 1);
+	border-radius: 4px;
+	position: absolute;
+	left: calc(50% - 27px);
+	top: 20px;
+}
+.phone::after {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid hsla(0, 0%, 9%, 1);
+	position: absolute;
+	left: calc(50% - 20px);
+	bottom: 5px;
+}
+.screen {
+	width: 280px;
+	height: 495px;
+	background-color: hsla(0, 0%, 9%, 1);
+	background-image: url(http://3.bp.blogspot.com/-HjPyg6f3Hcc/UPXBT3TV5PI/AAAAAAAABe4/aiqDv75CpF4/s1600/Samsung+Galaxy+Nexus+Screenshots+-+02+-+02+-+Daily.png);
+	background-size: 100%;
+	margin: 50px 10px;
+}
+ul {
+	background-color: hsla(0, 30%, 90%, 1);
+	list-style: none;
+}
+ul::before,
+ul::after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	background-color: red;
+}
+ul li {
+	background-color: hsla(300, 30%, 70%, 1);
+	float: left;
+}
