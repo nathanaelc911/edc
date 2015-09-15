@@ -1,0 +1,33 @@
+body{
+	text-transform: uppercase;
+	color: white;
+	background-color: black;
+	font-family: 'Titillium Web', sans-serif;
+}
+li{
+	background-color: orange;
+	display:inline-table;
+}
+header{
+	padding: 20px 10px;
+}
+small{
+	text-align: right;
+	padding: 20px 1175px;
+}
+h1{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+a{
+	text-align: center;
+	display: block;
+	color: inherit;
+	background-color: #009a9c;
+	width: 150px;
+	margin: 50px auto;
+	padding: 10px 20px;
+	text-decoration: blink;
+}

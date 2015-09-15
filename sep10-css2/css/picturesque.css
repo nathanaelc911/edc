@@ -1,0 +1,54 @@
+body {
+	margin: 0 auto;
+}
+div {
+	background-color: black;
+	width: 100%;
+	position: fixed;
+}
+header {
+	background: url(img/banner.jpg);
+	background-position: top;
+	display: inline-block;
+	width: 100%;
+	position: fixed;
+	background-size: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+nav {
+	background-color: #ad103c;
+	width: 100%;
+	display: inline-block;
+	padding: 5px;
+	margin: 0 auto;
+}
+a.hero{
+	color: white;
+	background: black;
+	text-decoration: none;
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+	font-size: 60px;
+	margin: 0 auto;
+	padding: 20px;
+	text-transform: none;
+}
+li {
+	text-align: center;
+	display: inline;
+	padding: 20px;
+
+	
+}
+a {
+
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+}

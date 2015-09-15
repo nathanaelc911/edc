@@ -1,0 +1,41 @@
+body {
+	background-color: #0099cc;
+	color: #ffffff;
+
+}
+header {
+	font-size: 60px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+p {
+	text-align: center;
+	font-size: 30px;
+	padding: 10px 20px;
+}
+a {
+	text-transform: uppercase;
+	border-bottom:dotted 1px;
+	color: #f0f0f0;
+	text-decoration: none;
+}
+div {
+	text-align: center;
+	padding: 10px;
+}
+button.button-1 {
+	color: #0099cc;
+	background-color: white;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+button.button-2 {
+	color: white;
+	background-color: #0099cc;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+img {
+	position:
+}
