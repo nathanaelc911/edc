@@ -1,0 +1,81 @@
+body {
+	font-family: sans-serif;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: hsla(0, 0%, 19%, 1);
+	width: 25vw;
+	color: hsla(0, 0%, 92%, 1);
+}
+a {
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+li {
+	border-bottom: 1px solid hsla(0, 0%, 9%, 1);
+	transition: background-color 500ms ease-in-out;
+}
+i {
+	margin-right: 10px;
+	float: left;
+}
+li:nth-child(1) figure {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/220px-Tursiops_truncatus_01.jpg");
+}
+li:nth-child(2) figure {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1d/Albino_Rat.jpg");
+	background-position: right center;
+}
+li:nth-child(3) figure {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chinstrap_Penguin.jpg/200px-Chinstrap_Penguin.jpg");
+	background-position: top center;
+}
+li:nth-child(4) figure {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/220px-Ara_ararauna_Luc_Viatour.jpg");
+}
+li:nth-child(5) figure {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cyanocitta-cristata-004.jpg/220px-Cyanocitta-cristata-004.jpg");
+}
+li:last-of-type {
+	border: none;
+}
+li figure {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+li:hover {
+	background-color: hsla(310, 70%, 60%, 1);
+}
+li:hover div {
+	height: 25vw;
+}
+li div {
+	width: 100%;
+	height: 0vw;
+	background-color: hsla(0, 0%, 92%, 1);
+	position: relative;
+	overflow: hidden;
+	transition:height 500ms ease-in-out;
+}
+figure {
+	margin: 0;
+	height: 100%;
+}
+figcaption {
+	color: hsla(0, 0%, 19%, 1);
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	display: block;
+	width: 100%;
+	left: 0;
+	box-sizing: border-box;
+	text-align: center;
+	font-style: italic;
+	background-color: hsla(0, 0%, 100%, .75);
+}
